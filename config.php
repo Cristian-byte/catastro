@@ -1,4 +1,4 @@
-<php 
+<?php 
 
 $server = "localhost";
 $user = "admin";
@@ -8,7 +8,7 @@ $database = "db_catastro";
 $conn = mysqli_connect($server, $user, $pass, $database);
 
 if(!$conn){
-    die("Connection failed");
+    die("Conexión fallida");
 }
 
 ?>
